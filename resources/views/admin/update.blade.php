@@ -3,6 +3,7 @@
 
 
 @section('content')
+
  <form method="post" action="/admin-update/{{$doctors->id}}" >
     @csrf
   <table class="table">
